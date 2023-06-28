@@ -4,7 +4,7 @@
 #contentBody{
     width: 100vw;
     height: 95vh;
-    border: 1px solid black;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,19 +36,30 @@ label{
     border-radius: 8px;
     color: hsl(0, 0%, 100%);
     background-color: hsl(234, 29%, 20%) ;
+    border: none;
 }
+#submitBtn:hover{
+    background: linear-gradient(to right,  #FF4F75, #FA9649, #ff6257 );
+    box-shadow:  -9px 9px 18px #f1c6a5,
+             9px -9px 18px #f9f9f9;
+    border: none;
+    
+    /* #FF5172 */
+}
+
 form{
     margin-top: 30px;
 }
-ul{
-list-style-image: url("assets/images/icon-list.svg");
 
-}
 input{
     width: 100%;
     padding: 10px 5px 10px 30px;
     border-radius: 10px;
     border: 1px solid hsl(231, 7%, 60%);
 
-    
+}
+.checkmark{
+    margin-right: 10px;
+    position: relative;
+    bottom: 2px;
 }
