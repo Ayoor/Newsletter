@@ -5,48 +5,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+<!-- bootstrap style -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- bootstrap script  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </head>
 <body>
+    <!-- Sign-up form start -->
+<section id="contentBody" >
+<section id="mainContainer" class="row                                                                                                           ">
+  <aside class="col-md-7 left d-flex justify-content-center align-items-center">
+    <main>
+    <h1 style="font-size: 3rem;"><strong>Stay updated!</strong></h1>
 
-  <!-- Sign-up form start -->
+    <p>Join 60,000+ product managers receiving monthly updates on:</p>
+    <ul>
+      <li>Product discovery and building what matters</li><br>
+      <li>Measuring to ensure updates are a success</li> <br>
+      <li>And much more!</li>
+    
+      
+    </ul>
+    <form action="">
+      <label for="email" >Email address</label><br>
+      <input type="email" name="email" id="email"  placeholder="email@company.com">
+      <div class="text-center"><button id="submitBtn" type="submit">Subscribe to monthly newsletter</button></div>
+    </form>
+  </aside>
+  </main>
+  <aside class="col-md-5 right"></aside>
 
-  Stay updated!
+</section>
+</section>
 
-  Join 60,000+ product managers receiving monthly updates on:
 
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
+ 
+  
+  
 
-  Email address
+  <!-- Email address
   email@company.com
 
-  Subscribe to monthly newsletter
+  Subscribe to monthly newsletter -->
 
   <!-- Sign-up form end -->
 
   <!-- Success message start -->
 
-  Thanks for subscribing!
+  <!-- Thanks for subscribing!
 
   A confirmation email has been sent to ash@loremcompany.com. 
   Please open it and click the button inside to confirm your subscription.
 
-  Dismiss message
+  Dismiss message -->
 
   <!-- Success message end -->
   
-  <div class="attribution">
+  <div class="attribution text-center">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Ayodele Oduola</a>.
   </div>
 </body>
 </html>
