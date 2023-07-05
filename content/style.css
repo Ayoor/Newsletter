@@ -1,65 +1,75 @@
-.chkLstImg{
-    margin-right: 1rem;
+.chkLstImg {
+  margin-right: 1rem;
 }
-#contentBody{
-    width: 100vw;
-    height: 95vh;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
+#contentBody {
+  width: 100vw;
+  height: 95vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
 }
 
-.right{
-    background-image: url("assets/images/illustration-sign-up-desktop.svg");
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   border-radius: 15px;
+.right {
+  background-image: url('assets/images/illustration-sign-up-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
 }
-#mainContainer{
-width: 95%;
-height: 95%;
+#mainContainer {
+  width: 95%;
+  height: 95%;
 }
-label{
-    font-size: smaller;
-    margin-bottom: 5px;
-    color:  hsl(234, 29%, 20%);
-    font-weight: bold;
-    
+label {
+  font-size: smaller;
+  margin-bottom: 5px;
+  color: hsl(234, 29%, 20%);
+  font-weight: bold;
 }
-#submitBtn{
-    width: 100%;
-    margin-top: 30px;
-    padding: 10px 40px;
-    border-radius: 8px;
-    color: hsl(0, 0%, 100%);
-    background-color: hsl(234, 29%, 20%) ;
-    border: none;
+#submitBtn {
+  width: 100%;
+  margin-top: 30px;
+  padding: 10px 40px;
+  border-radius: 8px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(234, 29%, 20%);
+  border: none;
 }
-#submitBtn:hover{
-    background: linear-gradient(to right,  #FF4F75, #FA9649, #ff6257 );
-    box-shadow:  -9px 9px 18px #f1c6a5,
-             9px -9px 18px #f9f9f9;
-    border: none;
-    
-    /* #FF5172 */
+#submitBtn:hover {
+  background: linear-gradient(to right, #ff4f75, #fa9649, #ff6257);
+  box-shadow: -9px 9px 18px #f1c6a5, 9px -9px 18px #f9f9f9;
+  border: none;
+
+  /* #FF5172 */
 }
 
-form{
-    margin-top: 30px;
+form {
+  margin-top: 30px;
 }
 
-input{
-    width: 100%;
-    padding: 10px 5px 10px 30px;
-    border-radius: 10px;
-    border: 1px solid hsl(231, 7%, 60%);
+#email {
+  width: 100%;
+  padding: 10px 5px 10px 30px;
+  border-radius: 10px;
+  border: 1px solid #bec0bc;
 
+  /* border: 1px solid hsl(231, 7%, 60%); */
 }
-.checkmark{
-    margin-right: 10px;
-    position: relative;
-    bottom: 2px;
+
+#email:focus {
+  outline: none;
+  border: 1px solid hsl(231, 7%, 60%);
+}
+.noemailinput {
+  border: 1px solid red !important;
+  color: red;
+  background-color: #fbdec2;
+}
+
+.checkmark {
+  margin-right: 10px;
+  position: relative;
+  bottom: 2px;
 }
