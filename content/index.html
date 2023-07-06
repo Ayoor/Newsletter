@@ -57,17 +57,18 @@
 
 <!-- Modal -->
 <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog ">
     <div class="modal-content">
       <div class="modal-header">
         <img src="assets/images/icon-success.svg" width="10%" alt="Success">
       </div>
       <div class="modal-body">
-        ...
+        <h1 id="modalTitle">Thanks for subscribing!</h1>
+        <p> A confirmation email has been sent to <br> <strong>ash@loremcompany.com</strong> 
+          Please open it and click the button inside to confirm your subscription.</p>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+      <div class="footer text-center">
+        <button type="button" class="dismissBtn" data-bs-dismiss="modal"> Dismiss message</button>
       </div>
     </div>
   </div>

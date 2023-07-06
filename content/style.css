@@ -28,7 +28,8 @@ label {
   color: hsl(234, 29%, 20%);
   font-weight: bold;
 }
-#submitBtn {
+#submitBtn,
+.dismissBtn {
   width: 100%;
   margin-top: 30px;
   padding: 10px 40px;
@@ -37,7 +38,12 @@ label {
   background-color: hsl(234, 29%, 20%);
   border: none;
 }
-#submitBtn:hover {
+.dismissBtn {
+  width: 80%;
+  margin-bottom: 50px;
+}
+#submitBtn:hover,
+.dismissBtn:hover {
   background: linear-gradient(to right, #ff4f75, #fa9649, #ff6257);
   box-shadow: -9px 9px 18px #f1c6a5, 9px -9px 18px #f9f9f9;
   border: none;
@@ -72,4 +78,25 @@ form {
   margin-right: 10px;
   position: relative;
   bottom: 2px;
+}
+
+/* Change border radius for modal content */
+.modal-content {
+  border-radius: 20px !important;
+  width: 85% !important;
+}
+#modalTitle {
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+.modal-header {
+  border: none !important;
+}
+
+.modal-body p {
+  font-size: 80%;
+  width: 92%;
+  margin-top: 20px !important;
+  color: hsl(235, 18%, 26%);
+  font-weight: 600;
 }
